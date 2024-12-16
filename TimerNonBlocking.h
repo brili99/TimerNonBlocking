@@ -8,7 +8,7 @@ public:
     unsigned long last_ts;
     unsigned long interval_loop;
     void set_interval(unsigned long interval);
-    bool loop(unsigned long &current_timestamp, bool reset = true);
+    bool loop(unsigned long current_timestamp, bool reset = true);
 };
 
 #endif
